@@ -1,0 +1,39 @@
+.dog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.dog-image {
+    width: 100px;
+    height: 80px;
+}
+
+.meme-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.meme-image {
+    width: 70px;
+    height: 50px;
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid;
+   }
+
+th {
+    background-color: darkgray;
+   }
+   
+table {
+    width: 100%;
+    margin-bottom: 30px;
+   }
+   
