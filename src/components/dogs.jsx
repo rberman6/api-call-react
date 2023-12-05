@@ -18,7 +18,7 @@ export default async function Dogs() {
       </p>
       <div className="dog-container">
         {images.map((image) => {
-          return <img src={image} className="dog-image" />;
+          return <img src={image} className="dog-image" alt="dog" />;
         })}
       </div>
       <hr />
